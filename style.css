@@ -11,12 +11,14 @@ header, main, footer {
     justify-content: center;
 }
 body {
-    background-color: rgb(163, 237, 255);
+    background-color: rgb(163, 172, 255);
 }
 
 .page-holder {
     width: 1000px;
 }
 .page-holder a img {
-    height: 160px;
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
 }
