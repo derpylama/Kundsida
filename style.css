@@ -3,11 +3,11 @@
     margin: 0;
     text-decoration: none;
     list-style-type: none;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 header {
-    background-color: aliceblue;
+    background-color: rgb(143, 196, 241);
 }
 header, footer {
     width: 100vw;
@@ -15,30 +15,37 @@ header, footer {
     justify-content: center;
 }
 main {
-    background-color: rgb(210, 214, 255);
+    background-color: rgba(143, 195, 241, 0.653);
+    padding: 40px 60px;
 }
 
 body {
-    background-color: rgb(163, 172, 255);
+    background-color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 a {
-    color: black;
+    font-weight: bold;
 }
 
 .page-holder {
-    width: 1000px;
+    width: 1200px;
 }
 header .page-holder {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+header .page-holder a {
+    height: 100px;
+    width: 700px;
 }
 header .page-holder a img {
-    height: 100px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }
