@@ -1,11 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Segoe UI';
-}
-
 header {
     background-color: aliceblue;
     flex-direction: row;
@@ -40,7 +32,7 @@ header nav {
 }
 header a {
     width: 120px;
-    aspect-ratio: 1 / 1;
+    height: 120px;
 }
 header a img {
     height:100%;
@@ -79,5 +71,4 @@ header nav p {
     padding: 5px 8px;
     border-radius: 20px;
     background-color: rgba(137, 146, 224, 0.169);
-
 }
