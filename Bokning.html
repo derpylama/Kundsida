@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bokning</title>
+    <link rel="stylesheet" href="Bokning.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+<body>
+    <form method="POST">
+        <p>Vad vill bok</p>
+        <select name="datum">
+            <option value="Tanvård">Tanvård</option>
+            <option value="Spa">Spa</option>
+            <option value="TanvårdSpa">Tanvård och Spa</option>
+        </select>
+        <p>Datum</p>
+        <select name="datum">
+            <option value="mondag">Måndag</option>
+            <option value="tisdag">Tisdag</option>
+            <option value="onsdag">Onsdag</option>
+            <option value="torsdag">Torsdag</option>
+            <option value="fredag">Fredag</option>
+        </select>
+        <br>
+        <p>Namn</p>
+        <input type="text" name="namn" placeholder="">
+        <p>Perssonnummer</p>
+        <input type="text" name="perssonnummer" placeholder="">
+        <p>Telefonnummer</p>
+        <input type="text" name="Telefonnummer" placeholder="">
+        <br>
+        <input type="submit" value="Boka">
+    
+</body>
+</html>
