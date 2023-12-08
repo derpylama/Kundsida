@@ -69,12 +69,13 @@ header nav p {
 .horizontal-list li a {
     font-weight: 400;
     font-size: 20px;
+    padding: 5px 8px;
+    background-color: rgba(255, 255, 255, 0);
 }
 #links {
     justify-content: space-evenly;
 }
 #selected {
-    padding: 5px 8px;
     border-radius: 20px;
     background-color: rgba(137, 146, 224, 0.169);
 }
