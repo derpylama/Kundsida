@@ -20,6 +20,7 @@ body {
 }
 
 main{
+    background-color: rgb(163, 172, 255);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
