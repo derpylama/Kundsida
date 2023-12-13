@@ -9,7 +9,7 @@
 }
 
 footer{
-    background-color: blue;
+    background-color: rgb(54, 54, 153);
     height: 170px;
 }
 
@@ -33,20 +33,36 @@ main section{
     width: 45%;
     height: 380px;
     padding: 10px;
+    
 }
 
 #tandvard{
-    border: solid;
     background-color: rgb(225, 227, 255);
 }
 
 #spa{
-    border: solid;
     background-color: rgb(200, 205, 255);
 }
 
 main div{
     height: 350px;
     width: 45%;
-    padding: 12px;
+    padding: 10px;
+    background-color: rgb(200, 205, 255);
+}
+
+main div div{
+    height: 200px;
+    width: 150px;
+    background-color: yellow;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+footer div{
+    margin-left: 50px;
 }
