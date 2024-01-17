@@ -24,6 +24,10 @@ body {
     overflow-x: hidden;
 }
 
+#autovideo{
+    height: 400px;
+}
+
 a {
     color: black;
 }
