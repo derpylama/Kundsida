@@ -55,8 +55,6 @@ $stmt -> close();
 <html>
 <head>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/booking.css" />
 </head>
 <body>
     <header>

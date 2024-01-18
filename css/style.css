@@ -177,7 +177,7 @@ footer h6{
     border-radius: 20px;
     margin: 15px;
     padding: 0;
-    width: 450px;
+    width: 28%;
     height: 80%;
     background-color: rgb(200, 205, 255);
     overflow: hidden;
@@ -230,4 +230,196 @@ footer h6{
     margin-top: 20px;
     width: auto;
     height: auto;
+}
+
+h1, h2 {
+    color: rgba(50, 58, 129, 0.833);
+}
+
+input::placeholder {
+color: white;
+opacity: 0.6;
+}
+
+input[type=date] {
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: rgba(50, 58, 129, 0.6);
+    color: white;
+
+    border-radius: 8px;
+    border: none;
+}
+
+input[type=checkbox] {
+    accent-color: rgba(50, 58, 129, 0.833);
+    border: none;
+}
+
+input:focus {
+    border: none;
+}
+
+
+#booking-options, #booking-info, #booking-times {
+    border-left: rgba(50, 58, 129, 0.833) solid 5px;
+}
+
+#booking-info, #booking-times {
+    width: calc(100%/2);
+    display: flex;
+    flex-direction: column;
+}
+
+#booking-times {
+    align-items: center;
+}
+
+#booking-info {
+    padding: 0 30px;
+}
+
+#booking-options {
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+}
+
+#booking-options h2, #booking-options ul li {
+    margin: 15px;
+    margin-left: 25px;
+
+    transition: 250ms;
+}
+
+#booking-options ul li {
+    background-color: rgba(72, 84, 190, 0.607);
+    font-size: 20px;
+    padding: 5px;
+    border-left: rgba(0, 0, 0, 0) solid 5px;
+    border-radius: 5px;
+}
+
+#booking-options ul li a {
+    display: block;
+    color:white;
+}
+
+#booking-options ul li:hover {
+    margin-left: 30px;
+    border-left: rgba(50, 58, 129, 0.833) solid 5px;
+    background-color: rgba(72, 84, 190, 0.833);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#booking-info h2 {
+    margin-top: 15px;
+}
+
+#booking-info label {
+    margin-top: 10px;
+}
+
+#booking-info input[type=text] {
+    padding: 5px;
+    border-radius: 5px;
+    width: 75%;
+}
+
+#booking-info input {
+    color: white;
+    font-size: 15px;
+    border: none;
+    box-shadow: none;
+
+    background-color: rgba(72, 84, 190, 0.607);
+}
+
+#tandlack {
+    width: 75%;
+    background-color: rgba(72, 84, 190, 0.607);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+#tandlack:hover {
+    background-color: rgba(72, 84, 190, 0.9);
+}
+
+#booking {
+    display: flex;
+    width: 100vw;
+}
+
+#booking form {
+    display: flex;
+    width: calc(100% * 2/3);
+}
+
+.time {
+    filter:opacity(70%);
+    background-color: rgb(72, 84, 190);
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.time p {
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.time-submit {
+    filter:opacity(70%);
+    background-color: rgb(72, 190, 76);
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.time-submit p {
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.time:hover, .time-submit:hover {
+    filter:opacity(100%)
+}
+
+.invisible-radio {
+    /* per https://a11yproject.com/posts/how-to-hide-content/ */
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.invisible-radio + label {
+    width: 80%;
+}
+
+.invisible-radio:checked + label div {
+    background-color: rgb(46, 53, 117);
+    filter:opacity(100%)
+}
+
+.unavailable {
+    display: none;
+}
+
+h2 {
+    margin-top: 25px;
 }
