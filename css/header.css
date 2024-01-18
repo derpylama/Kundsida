@@ -7,16 +7,14 @@ header, footer {
     display: flex;
 }
 
-body {
-    background-color: rgb(163, 172, 255);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    overflow-x: hidden;
-}
 
 a {
     color: black;
+}
+
+header {
+    box-shadow: 0 0 50px 0 rgba(50, 58, 129, 0.833);
+    z-index: 999;
 }
 
 header nav {

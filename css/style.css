@@ -8,6 +8,14 @@
     font-family: 'Segoe UI';
 }
 
+header a img {
+    scale: 0.7;
+}
+
+html {
+    overflow-y: scroll;
+}
+
 footer{
     background-color: blue;
     height: 170px;
@@ -18,6 +26,7 @@ body {
     align-items: center;
     flex-direction: column;
     overflow-x: hidden;
+    background-color: rgb(163, 172, 255);
 }
 
 main{
